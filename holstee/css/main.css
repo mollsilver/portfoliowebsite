@@ -1,0 +1,39 @@
+body{
+  width: 500px;
+	margin: auto;
+  background-color: #dcdcdc;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 24px;
+  color: #A9A9A9;
+  text-align: center;
+}
+
+.this {
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    color: grey;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 75px;
+  }
+
+.love, .dream {
+  color: orange;
+  font-size: 24px;
+  padding: 20px;
+  font-family: 'Fjalla One', sans-serif;
+  line-height: 10px;
+}
+
+.emphasis {
+  color: orange;
+}
+
+.quote {
+	float: center;
+  background-color: white;
+  word-spacing: 1px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}

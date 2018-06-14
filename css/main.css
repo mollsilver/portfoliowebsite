@@ -1,0 +1,209 @@
+/***** BASE STYLES *****/
+
+@font-face {
+      font-family: 'bebasregular';
+      src: url('fonts/bebas___-webfont.woff2') format('woff2'),
+            url('fonts/bebas___-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+      font-family: 'bebas_neue_regularregular';
+      src: url('fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+            url('fonts/bebasneue_regular-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+}
+
+header {
+      height: 900px;
+}
+
+#projects {
+      height: 1200px;
+}
+
+#about {
+      height: 550px;
+}
+
+footer {
+      height: 400px;
+}
+
+/***** FONT STYLES *****/
+
+h1 {
+      font-family: 'bebasregular';
+      font-size: 50px;
+      word-spacing: 16px;
+
+}
+
+h2 {
+      font-family: 'bebas_neue_regularregular';
+      font-size: 50px;
+      text-align: center;
+      padding-bottom: 30px;
+      padding-top: 40px;
+}
+
+h3 {
+      font-family: 'Source Sans Pro';
+      font-size: 16px;
+      font-weight: 500;
+}
+
+h4 {
+      font-family: 'Source Sans Pro';
+      font-size: 24px;
+      font-weight: bold;
+}
+
+p {
+      font-family: 'Source Sans Pro';
+      font-size: 18px;
+}
+
+nav {
+      font-family: 'Source Sans Pro';
+      font-size: 16px;
+}
+
+
+
+/***** GRID *****/
+
+
+.full-width {
+      width: 1200px;
+      margin: 0 auto;
+}
+
+.half-width {
+      width: 600px;
+      height: auto;
+      float: left;
+      text-align: center;
+}
+
+.third-width, {
+      width: 400px;
+      float: left;
+}
+
+/****** HEADER ******/
+
+header span {
+      color: #ffb566;
+}
+
+header h3 {
+      text-align: left;
+}
+
+.hero-image {
+      background: url('../img/giraffe-hero.jpg');
+      background-size: cover;
+      clear: both;
+      height: 900px;
+}
+
+header h1 {
+      clear: both;
+      padding-top: 20px;
+      padding-left: 20px;
+}
+
+header nav ul {
+      float: right;
+}
+
+header nav ul li {
+      display: inline;
+      padding: 0 10px;
+}
+
+header nav ul li a {
+      text-decoration: none;
+}
+
+a:link{
+      color:black;
+      text-decoration: none;
+}
+
+a:visited{
+      color:black;
+}
+
+a:hover{
+      color:#ffb566;
+      text-decoration: overline;
+}
+
+a:focus{
+      color:black;
+}
+
+a:active{
+      color:#ffb566;
+}
+
+/****** PROJECTS ******/
+
+#projects h2 {
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+}
+
+#projects .half-width {
+      padding-top: 50px;
+}
+
+#projects span {
+      font-weight: 400;
+      font-size: 16px;
+      color: #ffb566;
+      font-style: italic;
+}
+
+#clear {
+      clear: both;
+}
+
+/****** ABOUT ******/
+
+#about {
+      background: url('../img/glass-house-fade.jpg');
+      background-size: cover;
+      clear: both;
+}
+
+#about .about-text {
+      margin: 40px;
+      text-align: center;
+}
+
+#about p {
+      font-size: 26px;
+}
+
+/****** FOOTER ******/
+
+footer {
+      text-align: center;
+}
+
+footer h2 {
+      padding: 0px;
+}
+
+footer span {
+      color: #ffb566;
+}
+
+footer .small {
+      font-size: 14px;
+}
